@@ -12,9 +12,11 @@ app.use(express.json(), express.text());
 
 // Import Routes
 const annexe1 = require('../routes/api/annexe1');
+const annexe2 = require('../routes/api/annexe2');
 
 // Define Routes
 app.use('/api/p1', annexe1);
+app.use('/api/p2', annexe2)
 
 
 // Run server
