@@ -35,18 +35,9 @@ OR
 npm run dev
 ```
 
-Then open a new terminal and run following commands :
+Then open a new terminal and run following command :
 ```
-cd test
-npm test tests.test.js
-```
-
-OR
-
-```
-npm test test 
-OR
-npm test test/tests.test.js
+npm test
 ```
 
 ## Presentation
